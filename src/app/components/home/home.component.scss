@@ -1,4 +1,10 @@
 #home {
   background: var(--bg);
   color: var(--txt);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 3000px;
 }

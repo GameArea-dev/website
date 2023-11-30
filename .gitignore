@@ -1,6 +1,3 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react,intellij+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,intellij+all
-
 ### Intellij+all ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -104,5 +101,3 @@ bower_components
 psd
 thumb
 sketch
-
-# End of https://www.toptal.com/developers/gitignore/api/react,intellij+all

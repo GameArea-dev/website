@@ -1,10 +1,10 @@
 import './header.component.scss'
+import {ReactComponent as MGLogoNoTxt} from '@svg/logo_ours_v7_sans_txt.svg'
 
 export default function HeaderComponent(){
     return(
         <header>
-            <div></div>
-            <div></div>
+            <MGLogoNoTxt className='logo'/>
             <div></div>
         </header>
     )
