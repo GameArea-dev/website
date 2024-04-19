@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import reportWebVitals from './reportWebVitals';
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import HomeComponent from "./app/components/home/home.component";
 import NotFoundComponent from "./app/components/404/not-found.component";
 
@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-const router = createBrowserRouter(
+const router = createHashRouter(
     [
         {
             path: "/",
