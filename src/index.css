@@ -1,4 +1,4 @@
-@use "assets/style/global";
+@import url('assets/style/_global.scss');
 
 body {
   margin: 0;
