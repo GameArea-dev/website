@@ -2,14 +2,13 @@
   "compilerOptions": {
     "baseUrl": "src",
     "paths": {
-      "@/*": [
-        "app/*"
-      ],
       "@assets/*": ["assets/*"],
-      "@components/*": ["app/components/*"],
-      "@hooks/*": ["app/hooks/*"],
-      "@shared/*": ["app/components/shared/*"],
-      "@svg/*": ["assets/image/svg/*"]
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
+      "@views/*": ["views/*"],
+      "@utils/*": ["utils/*"],
+      "@svg/*": ["assets/images/svg/*"],
+      "@icons/*": ["assets/images/svg/icon/*"]
     }
   }
 }
