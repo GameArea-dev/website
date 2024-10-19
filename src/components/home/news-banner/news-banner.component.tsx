@@ -1,4 +1,5 @@
 import { LatestNewsModel } from "./models/latest-news.model";
+import "./news-banner.component.css";
 
 const latestNews: LatestNewsModel = {
   title: "Le site fait peau neuve !",
@@ -10,7 +11,7 @@ const latestNews: LatestNewsModel = {
 
 export default function NewsBannerComponent() {
   return (
-    <div>
+    <div id="news-banner">
       <div></div>
       <div>
         <h2>{latestNews.title}</h2>

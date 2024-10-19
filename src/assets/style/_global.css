@@ -1,0 +1,24 @@
+@import "_colors.css";
+@import "_theming.css";
+
+@font-face {
+    font-family: Outfit;
+    src: url("../font/Outfit-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Open-Sans;
+    src: url("../font/OpenSans-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .page {
+        &.standard {
+            width: 100vw;
+        }
+    }
+}

@@ -1,0 +1,79 @@
+:root {
+    --bg: #000;
+    --txt: #000;
+    --txt--silent: #000;
+    --primary: #000;
+    --secondary: #000;
+    --accent1: #000;
+    --accent2: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg: var(--dark--default);
+        --txt: var(--white--default);
+        --txt--silent: #000;
+        --primary: var(--cinnabar);
+        --secondary: #000;
+        --accent1: #000;
+        --accent2: #000;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: var(--white--default);
+        --txt: var(--dark--default);
+        --txt--silent: #000;
+        --primary: var(--cinnabar);
+        --secondary: #000;
+        --accent1: #000;
+        --accent2: #000;
+    }
+}
+
+:root[color-scheme="dark"] {
+    --bg: var(--dark--default);
+    --txt: var(--white--default);
+    --txt--silent: #000;
+    --primary: var(--cinnabar);
+    --secondary: #000;
+    --accent1: #000;
+    --accent2: #000;
+}
+
+:root[color-scheme="light"] {
+    --bg: var(--white--default);
+    --txt: var(--dark--default);
+    --txt--silent: #000;
+    --primary: var(--cinnabar);
+    --secondary: #000;
+    --accent1: #000;
+    --accent2: #000;
+}
+
+.primary {
+    &:is(a),
+    &:is(p),
+    &:is(span) {
+        color: var(--primary);
+    }
+
+    &:is(div) {
+        background-color: var(--primary);
+        color: var(--txt);
+    }
+}
+
+.secondary {
+    &:is(a),
+    &:is(p),
+    &:is(span) {
+        color: var(--secondary);
+    }
+
+    &:is(div) {
+        background-color: var(--secondary);
+        color: var(--txt);
+    }
+}
