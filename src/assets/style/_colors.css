@@ -1,5 +1,9 @@
 :root {
-  --dark--default: #000;
-  --white--default: #fff;
-  --cinnabar: #E84545;
+    --dark--default: #000;
+    --white--default: #fff;
+    --cinnabar: #e84545;
+}
+
+.white-default {
+    color: var(--white--default);
 }

@@ -6,7 +6,7 @@ export default function HomeHeroComponent() {
   return (
     <div id="home-hero">
       <HeaderComponent transparent={true} />
-      <h1>
+      <h1 className="white-default">
         Game<span className="primary">Area</span>
       </h1>
       <NewsBannerComponent />

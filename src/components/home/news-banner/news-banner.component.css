@@ -1,7 +1,25 @@
 #news-banner {
     background-color: var(--primary);
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    div {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+
+        h2,
+        p {
+            text-align: center;
+            margin: 0;
+        }
+    }
 }

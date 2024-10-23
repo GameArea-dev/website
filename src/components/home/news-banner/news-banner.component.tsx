@@ -11,12 +11,13 @@ const latestNews: LatestNewsModel = {
 
 export default function NewsBannerComponent() {
   return (
-    <div id="news-banner">
+    <div id="news-banner" className="white-default">
       <div></div>
       <div>
-        <h2>{latestNews.title}</h2>
+        <h2>{latestNews.title} 🔥</h2>
         <p>{latestNews.caption}</p>
       </div>
+      <div></div>
     </div>
   );
 }

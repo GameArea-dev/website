@@ -19,7 +19,7 @@ export default function HomeUpcomingComponent() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <NavLink to="/">En savoir plus &gt;</NavLink>
+        <NavLink to="/about#lans">En savoir plus &gt;</NavLink>
       </div>
     </div>
   );
