@@ -1,28 +1,25 @@
-header {
-    width: 90%;
-    max-width: 1200px;
-    margin-top: 10px;
-    padding: 5px 10px;
-    backdrop-filter: blur(10px);
-    border-radius: 40px;
+#news-banner {
+    background-color: var(--primary);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
-    div,
-    nav {
+    div {
         display: flex;
-        flex-flow: row;
+        flex-flow: column;
         align-items: center;
         justify-content: center;
-        gap: 10px;
+        padding: 10px;
 
-        a {
+        h2,
+        p {
             text-align: center;
             margin: 0;
-            text-transform: uppercase;
         }
     }
 }
