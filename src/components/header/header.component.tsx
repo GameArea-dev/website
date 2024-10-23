@@ -14,6 +14,9 @@ export default function HeaderComponent(props: {
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">A propos</NavLink>
       </nav>
+      <div>
+        <button>soon</button>
+      </div>
     </header>
   );
 }
